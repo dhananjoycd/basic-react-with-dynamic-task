@@ -1,0 +1,43 @@
+.country-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.each-country {
+  background-color: rgb(211, 219, 219);
+  border: 2px solid purple;
+  margin: 15px;
+  border-radius: 15px;
+  color: black;
+  height: 320px;
+  width: 450px;
+  padding: 10px;
+}
+.visited {
+  background-color: rgb(1, 5, 32);
+  border: 2px solid rgb(215, 238, 7);
+  margin: 15px;
+  border-radius: 15px;
+  color: rgb(244, 248, 7);
+  height: 320px;
+  width: 450px;
+  padding: 10px;
+}
+
+.img-make {
+  height: 150px;
+  width: 150px;
+  border-radius: 5px;
+}
+.btn {
+  background-color: rgba(6, 31, 1, 0.884);
+  cursor: pointer;
+  color: rgb(223, 222, 212);
+}
+.disable-btn {
+  background-color: rgb(224, 7, 7);
+  opacity: 0.8;
+  color: rgb(240, 240, 240);
+  pointer-events: none;
+}
