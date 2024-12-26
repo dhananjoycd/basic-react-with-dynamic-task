@@ -3,10 +3,13 @@ import Countries from "./components/Countries/Countries";
 
 function App() {
   return (
-    <>
-      <h3>React Er Khela Suru - রিয়েক্ট এর খেলা শুরু</h3> <hr />
+    <div className=" ">
+      <h3 className="text-yellow-200	text-center">
+        React Er Khela Suru --- রিয়েক্ট এর খেলা শুরু{" "}
+      </h3>
+      <hr />
       <Countries></Countries>
-    </>
+    </div>
   );
 }
 
